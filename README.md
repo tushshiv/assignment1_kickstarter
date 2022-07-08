@@ -10,6 +10,10 @@ The analysis was Basically broken down into two Segments namely:
 ### Campaign Outcomes vs Launch dates
 The first work was done for Campaign Outcomes vs Launch dates. From the Kickstarted sheet, a new sheet with name "Theater Outcomes by Launch_date" was created(for the reason that "Theatre was the most popular from other parent category" and herein the Pivot tables were created ,as per the filters required ,and from this table the chart for Campaign vs launch dates was generated. 
 
+
+
+/Resources/Theater_Outcomes_vs_Launch.png
+
 **No challenges were encountered for the first segment however potential challenges for any other analyst would be to make sure that while using the pivot table  mulitple itens such as quarters and years in the rows filed for "date launched conversion" column are excluded in the Rows field in pivot table.** 
 
 ### Campaign outcomes vs Funding goals
