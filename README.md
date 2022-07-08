@@ -20,7 +20,7 @@ Outcome vs Launch date
 
 ### Campaign outcomes vs Funding goals
 The second segment was to work on the Campaign outcomes vs Funding goals. The Major challenge over here was to create a simple formula to import number of projects  with a definite range of funding goals filtered by the required range requirement,subcategory requirement (plays) and the outcome.
-This was overcome by using **countifs()** in the following manner, For example for getting the number of succesfful "play" projects in the funding goal range of 1000 to 4999 :
+This was overcome by using **countifs()** in the following manner, For example for getting the number of succesfful "play" projects in the funding goal range of 15000 to 20000 :
 ```
 =COUNTIFS( Kickstarter!$F$2:$F$4116,"failed",Kickstarter!$D$2:$D$4116,">=15000",Kickstarter!$D$2:$D$4116,"<20000",Kickstarter!$R$2:$R$4116,"plays")
 ```
